@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+html, body, #app {
+  height: 100%;
+  background: #dce9f4;
+  font-family: 'PingFang SC','Microsoft Yahei', 'Lucida Sans', Arial, sans-serif;
+}
+ul, li, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+  line-height: 1.6;
+}
+* a{
+  text-decoration: none;
+}
+.el-main.right-mian {
+  padding: 0;
+}
+.el-dialog__header .header {
+  color: #373d41;
+  cursor: move;
+  font-size: 18px;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.el-dialog__headerbtn {
+  position: absolute;
+  top: 0 !important;
+  right: 0 !important;
+  width: 54px !important;
+  height: 50px !important;
+}
+.el-dialog__header {
+  margin-right: 0 !important;
+  padding:  0  !important;
+}
+.ivu-btn {
+  border-radius: 2px;
+}
+
+.el-aside{
+  background: #fff;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+.blank10{
+  border-bottom: 9px solid rgb(220, 233, 244);
+  margin: 0px -15px 0;
+}
+
+.tox-tinymce-aux {
+  z-index: 999999 !important;
+}
+.content-warp img {
+  max-width: 100%;
+}
+
+.page-box {
+  padding: 20px 15px 0 0 ;
+  display: flex;
+  justify-content: flex-end;
+}
+
+// loading 
+.el-loading-mask.is-fullscreen .el-loading-spinner .circular {
+  width: 30px !important;
+  height: 30px !important
+}
+.el-loading-spinner .el-loading-text {
+  font-size: 12px !important;
+}
+
+.justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.el-form--inline .el-form-item {
+  margin-right: 15px !important;
+}

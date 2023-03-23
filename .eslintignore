@@ -1,0 +1,8 @@
+# 让EsLint不检测一些文件。
+# src/test/* 
+// .eslintignore
+node_modules
+publish
+*.md
+.eslintrc.js
+webpack.config.js
