@@ -7,7 +7,6 @@
  */
 import { createApp } from 'vue'
 import App from './App.vue'
-import 'view-ui-plus/dist/styles/viewuiplus.css'
 import router from './router/index.js'
 import './assets/style/index.scss'
 import './assets/style/element/element.scss'
@@ -16,7 +15,6 @@ import 'element-plus/theme-chalk/src/index.scss'
 import { ElMessage } from 'element-plus'
 import { globalRegisterComponent } from './components/index'
 import store, { setupStore } from './store'
-console.log('store', store)
 const app = createApp(App)
 app.use(store)
 app.use(router)
