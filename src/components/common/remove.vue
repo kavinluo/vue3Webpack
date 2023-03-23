@@ -29,9 +29,6 @@
     props: ['rowData', 'deleteUrl', 'idKey', 'title'],
     data () {
       return {
-        //保存数据
-        // addUrl:this.$globlURLPrefix.passport + '/role/add',
-        // countDate: 0,
         loading:false,
         loadBtn: {title: '确定', callParEvent: 'operateCallback'},
       };

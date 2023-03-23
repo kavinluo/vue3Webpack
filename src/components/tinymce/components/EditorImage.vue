@@ -24,34 +24,11 @@
       <el-button type="primary" @click="handleSubmit">确定</el-button>
       <el-button @click="cancel">关闭</el-button>
     </kv-dialog>
-    <!-- <Modal
-      v-model="dialogVisible"
-      title="上传"
-      class-name="vertical-center-modal">
-      <modal-header slot="header" :content="dialogVisibleId"></modal-header>
-      <el-upload
-        :multiple="true"
-        accept="image/png, image/jpeg, image/gif"
-        :file-list="fileList"
-        :show-file-list="true"
-        :on-remove="handleRemove"
-        :on-success="handleSuccess"
-        :before-upload="beforeUpload"
-        class="editor-slide-upload"
-        action="/api/file/upload/static"
-        list-type="picture-card"
-      >
-        <el-button size="small" type="primary">点击上传</el-button>
-      </el-upload>
-      <el-button type="primary" @click="handleSubmit">确定</el-button>
-      <el-button @click="dialogVisible = false">关闭</el-button>
-      <div slot="footer"></div>
-    </Modal> -->
+
   </div>
 </template>
 
 <script>
-// import { getToken } from 'api/qiniu'
 import { getCookie } from '@/utils/util'
 export default {
   name: 'EditorSlideUpload',

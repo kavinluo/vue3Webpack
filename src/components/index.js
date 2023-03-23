@@ -2,11 +2,10 @@
  * @Author: kevin
  * @Date: 2022-02-28 09:09:17
  * @LastEditors: kavinluo
- * @LastEditTime: 2023-03-08 17:40:54
+ * @LastEditTime: 2023-03-23 12:44:59
  * @Description: 组件注册
  */
 import { components, plugins } from './element-ui/register-element'
-import { ViewComponents } from './view-ui/register-view-ui'
 import UserIcon from '@/components/kvIcon/kvIcon.js'
 import modalHeader from './common/modalHeader.vue'
 import keTable from '@/components/kvTable'
@@ -20,7 +19,6 @@ import kvDialog from './common/kvDialog'
 import tinymce from './tinymce/index'
 const concatComponent = [
   ...components,
-  ...ViewComponents,
   modalHeader,
   keTable,
   remove,
